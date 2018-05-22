@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include hostel_management *.css
+recursive-include hostel_management *.csv
+recursive-include hostel_management *.html
+recursive-include hostel_management *.ico
+recursive-include hostel_management *.js
+recursive-include hostel_management *.json
+recursive-include hostel_management *.md
+recursive-include hostel_management *.png
+recursive-include hostel_management *.py
+recursive-include hostel_management *.svg
+recursive-include hostel_management *.txt
+recursive-exclude hostel_management *.pyc
