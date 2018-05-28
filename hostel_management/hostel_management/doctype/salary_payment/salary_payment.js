@@ -3,7 +3,7 @@
 
 frappe.ui.form.on('Salary Payment', {
 	refresh: function(frm) {
-		var today = new Date();
+		/*var today = new Date();
 		var month = new Array();
 		month[0] = "January";
 		month[1] = "February";
@@ -18,7 +18,7 @@ frappe.ui.form.on('Salary Payment', {
 		month[10] = "November";
 		month[11] = "December";
 		var n = month[today.getMonth()];
-		frm.set_value("month", n);
+		frm.set_value("month", n);*/
 	}
 });
 

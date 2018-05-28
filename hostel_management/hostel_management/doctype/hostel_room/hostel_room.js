@@ -13,8 +13,6 @@ frappe.ui.form.on('Hostel Room', {
 				callback : function(r)
 				{
 					var arr=Array.apply(null, {length: r.message}).map(Function.call,Number);
-					var arr1=[1,2,3,4];
-					//frappe.model.set_value(cdt,cdn,"floor",r.object);
 					frm.set_df_property('floor', 'options', arr);
 					frm.refresh_field('floor');
 				}
